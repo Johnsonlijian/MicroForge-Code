@@ -1,0 +1,10 @@
+Metric,Baseline_SAM,LoRA_SAM
+N_masks,21469,30
+Pred_IoU_raw_mean,0.7005,1.0076
+Pred_IoU_clamped,0.7,1.0
+True_IoU_mean,0.003,0.1528
+ECE,0.6974,0.8472
+Overconfidence_ratio,236x,6.5x
+Masks_per_image,~716 (thresh 0.3),1
+Pearson_r,0.0816,NaN
+Spearman_rho,-0.0186,NaN

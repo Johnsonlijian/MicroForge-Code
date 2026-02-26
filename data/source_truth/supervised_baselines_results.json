@@ -1,0 +1,395 @@
+{
+  "U-Net": {
+    "loo_summary": {
+      "model": "U-Net",
+      "cv_type": "LOO",
+      "n_folds": 12,
+      "iou_mean": 0.9993833333333333,
+      "iou_std": 0.0010155731824387992,
+      "iou_ci95": 0.0005746146212575496,
+      "dice_mean": 0.9996916666666668,
+      "precision_mean": null,
+      "recall_mean": null
+    },
+    "loo_per_fold": [
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__11_22_.ome.png"
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__12_37_.ome.png"
+      },
+      {
+        "iou": 0.9984,
+        "dice": 0.9992,
+        "name": "Sample__13_22_.ome.png"
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__3_33_.ome.png"
+      },
+      {
+        "iou": 0.9998,
+        "dice": 0.9999,
+        "name": "Sample__4_23_.ome.png"
+      },
+      {
+        "iou": 0.9998,
+        "dice": 0.9999,
+        "name": "Sample__4_31_.ome.png"
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__4_32_.ome.png"
+      },
+      {
+        "iou": 0.9994,
+        "dice": 0.9997,
+        "name": "Sample__4_33_.ome.png"
+      },
+      {
+        "iou": 0.9987,
+        "dice": 0.9994,
+        "name": "Sample__4_36_.ome.png"
+      },
+      {
+        "iou": 0.9965,
+        "dice": 0.9982,
+        "name": "Sample__6_38_.ome.png"
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__8_21_.ome.png"
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "name": "Sample__9_35_.ome.png"
+      }
+    ],
+    "test_summary": {
+      "model": "U-Net",
+      "test_set": "auto_GT_30",
+      "iou_mean": 0.1529,
+      "iou_std": 0.1303,
+      "dice_mean": null,
+      "precision_mean": null,
+      "recall_mean": null
+    },
+    "test_per_image": []
+  },
+  "DeepLabv3": {
+    "loo_summary": {
+      "model": "DeepLabv3",
+      "cv_type": "LOO",
+      "n_folds": 12,
+      "iou_mean": 1.0,
+      "iou_std": 0.0,
+      "iou_ci95": 0.0,
+      "dice_mean": 1.0,
+      "precision_mean": 1.0,
+      "recall_mean": 1.0
+    },
+    "loo_per_fold": [
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      },
+      {
+        "iou": 1.0,
+        "dice": 1.0,
+        "precision": 1.0,
+        "recall": 1.0
+      }
+    ],
+    "test_summary": {
+      "model": "DeepLabv3",
+      "test_set": "auto_GT_30",
+      "iou_mean": 0.15285889691658275,
+      "iou_std": 0.13021696784531556,
+      "dice_mean": 0.2441496843853511,
+      "precision_mean": 0.15285889691658275,
+      "recall_mean": 0.9666666666666667
+    },
+    "test_per_image": [
+      {
+        "iou": 0.007559136605558841,
+        "dice": 0.015004849503971312,
+        "precision": 0.007559136605558841,
+        "recall": 1.0,
+        "name": "Sample__10_10_.ome.png"
+      },
+      {
+        "iou": 0.009976345357776464,
+        "dice": 0.019755602007178533,
+        "precision": 0.009976345357776464,
+        "recall": 1.0,
+        "name": "Sample__10_11_.ome.png"
+      },
+      {
+        "iou": 0.16068598462448255,
+        "dice": 0.276881063014592,
+        "precision": 0.16068598462448255,
+        "recall": 1.0,
+        "name": "Sample__10_12_.ome.png"
+      },
+      {
+        "iou": 0.5157835600236547,
+        "dice": 0.6805504078901681,
+        "precision": 0.5157835600236547,
+        "recall": 1.0,
+        "name": "Sample__10_13_.ome.png"
+      },
+      {
+        "iou": 0.3379967474866943,
+        "dice": 0.5052280554815856,
+        "precision": 0.3379967474866943,
+        "recall": 1.0,
+        "name": "Sample__10_14_.ome.png"
+      },
+      {
+        "iou": 0.03330277942046127,
+        "dice": 0.06445889836692296,
+        "precision": 0.03330277942046127,
+        "recall": 1.0,
+        "name": "Sample__10_15_.ome.png"
+      },
+      {
+        "iou": 0.004294795978710822,
+        "dice": 0.008552859172242218,
+        "precision": 0.004294795978710822,
+        "recall": 1.0,
+        "name": "Sample__10_16_.ome.png"
+      },
+      {
+        "iou": 0.0,
+        "dice": 0.0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "name": "Sample__10_17_.ome.png"
+      },
+      {
+        "iou": 0.010959556588381303,
+        "dice": 0.02168149362050802,
+        "precision": 0.010959556588381303,
+        "recall": 1.0,
+        "name": "Sample__10_18_.ome.png"
+      },
+      {
+        "iou": 0.03182982281921288,
+        "dice": 0.0616958768108601,
+        "precision": 0.03182982281921288,
+        "recall": 1.0,
+        "name": "Sample__10_19_.ome.png"
+      },
+      {
+        "iou": 0.02914991129509166,
+        "dice": 0.05664852316492774,
+        "precision": 0.02914991129509166,
+        "recall": 1.0,
+        "name": "Sample__10_20_.ome.png"
+      },
+      {
+        "iou": 0.17481815493790656,
+        "dice": 0.2976088753874362,
+        "precision": 0.17481815493790656,
+        "recall": 1.0,
+        "name": "Sample__10_21_.ome.png"
+      },
+      {
+        "iou": 0.08243494973388528,
+        "dice": 0.15231390995671706,
+        "precision": 0.08243494973388528,
+        "recall": 1.0,
+        "name": "Sample__10_22_.ome.png"
+      },
+      {
+        "iou": 0.30701212300413955,
+        "dice": 0.46979231118144293,
+        "precision": 0.30701212300413955,
+        "recall": 1.0,
+        "name": "Sample__10_23_.ome.png"
+      },
+      {
+        "iou": 0.09954316972205796,
+        "dice": 0.18106277672975848,
+        "precision": 0.09954316972205796,
+        "recall": 1.0,
+        "name": "Sample__10_24_.ome.png"
+      },
+      {
+        "iou": 0.20606741573033707,
+        "dice": 0.3417179057201416,
+        "precision": 0.20606741573033707,
+        "recall": 1.0,
+        "name": "Sample__10_25_.ome.png"
+      },
+      {
+        "iou": 0.25488616203429926,
+        "dice": 0.40622993502630167,
+        "precision": 0.25488616203429926,
+        "recall": 1.0,
+        "name": "Sample__10_26_.ome.png"
+      },
+      {
+        "iou": 0.3200103489059728,
+        "dice": 0.4848603636648728,
+        "precision": 0.3200103489059728,
+        "recall": 1.0,
+        "name": "Sample__10_27_.ome.png"
+      },
+      {
+        "iou": 0.293573329390893,
+        "dice": 0.4538951487645905,
+        "precision": 0.293573329390893,
+        "recall": 1.0,
+        "name": "Sample__10_28_.ome.png"
+      },
+      {
+        "iou": 0.23548344175044353,
+        "dice": 0.38120048200210366,
+        "precision": 0.23548344175044353,
+        "recall": 1.0,
+        "name": "Sample__10_29_.ome.png"
+      },
+      {
+        "iou": 0.21745121230041395,
+        "dice": 0.3572236983353653,
+        "precision": 0.21745121230041395,
+        "recall": 1.0,
+        "name": "Sample__10_30_.ome.png"
+      },
+      {
+        "iou": 0.3037551744529864,
+        "dice": 0.46596965504728644,
+        "precision": 0.3037551744529864,
+        "recall": 1.0,
+        "name": "Sample__10_31_.ome.png"
+      },
+      {
+        "iou": 0.28963483146067415,
+        "dice": 0.4491734007100695,
+        "precision": 0.28963483146067415,
+        "recall": 1.0,
+        "name": "Sample__10_32_.ome.png"
+      },
+      {
+        "iou": 0.1844175044352454,
+        "dice": 0.3114062460993085,
+        "precision": 0.1844175044352454,
+        "recall": 1.0,
+        "name": "Sample__10_33_.ome.png"
+      },
+      {
+        "iou": 0.10300413956238912,
+        "dice": 0.1867701776772215,
+        "precision": 0.10300413956238912,
+        "recall": 1.0,
+        "name": "Sample__10_34_.ome.png"
+      },
+      {
+        "iou": 0.059219396806623296,
+        "dice": 0.11181705505990598,
+        "precision": 0.059219396806623296,
+        "recall": 1.0,
+        "name": "Sample__10_35_.ome.png"
+      },
+      {
+        "iou": 0.08159373151981077,
+        "dice": 0.15087685725611338,
+        "precision": 0.08159373151981077,
+        "recall": 1.0,
+        "name": "Sample__10_36_.ome.png"
+      },
+      {
+        "iou": 0.043528976936723834,
+        "dice": 0.08342648435983639,
+        "precision": 0.043528976936723834,
+        "recall": 1.0,
+        "name": "Sample__10_37_.ome.png"
+      },
+      {
+        "iou": 0.02476936723832052,
+        "dice": 0.048341349829907926,
+        "precision": 0.02476936723832052,
+        "recall": 1.0,
+        "name": "Sample__10_38_.ome.png"
+      },
+      {
+        "iou": 0.1630248373743347,
+        "dice": 0.28034626971919613,
+        "precision": 0.1630248373743347,
+        "recall": 1.0,
+        "name": "Sample__10_39_.ome.png"
+      }
+    ]
+  }
+}

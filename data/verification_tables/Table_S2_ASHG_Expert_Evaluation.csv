@@ -1,0 +1,12 @@
+Hypothesis_ID,Hypothesis_Summary,Expert_A_Relevance,Expert_A_Novelty,Expert_A_Testability,Expert_B_Relevance,Expert_B_Novelty,Expert_B_Testability
+H1,AFt-to-AFm transformation drives micro-crack expansion via chemical shrinkage,5,4,5,4,4,5
+H2,Porosity increase dominated by crack growth rather than pore nucleation,4,3,5,5,3,5
+H3,ITZ weakening from ettringite dissolution enables crack propagation,4,4,5,4,5,5
+H4,Aeolian sand surface texture accelerates ITZ micro-cracking,3,4,5,4,3,5
+H5,Late-age C-S-H densification partially compensates early micro-cracking,5,3,5,4,4,5
+---,SUMMARY STATISTICS,,,,,,
+,Mean Relevance,4.2,,,4.2,,
+,Mean Novelty,,3.6,,,3.8,
+,Mean Testability,,,5.0,,,5.0
+,Overall Mean (across 3 dims),4.27,,,4.33,,
+,Linearly weighted Cohen's kappa,0.71,,,,,

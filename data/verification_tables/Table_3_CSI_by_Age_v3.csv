@@ -1,0 +1,6 @@
+Age,AFt_pct,CSI,Interpretation
+1d,5.46,0.0,Baseline
+3d,14.67,0.075,Peak AFt
+7d,11.96,0.022,Moderate
+14d,0.21,0.096,High (AFt collapse)
+28d,0.53,0.004,Low (stabilized)

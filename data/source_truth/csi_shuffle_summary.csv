@@ -1,0 +1,8 @@
+metric,value
+n_images,10
+n_permutations,10000
+true_edge_hit_mean,94.02
+shuffled_edge_hit_mean,94.02
+shuffled_edge_hit_std,0.0
+p_value,1.0
+cohens_d,-0.0

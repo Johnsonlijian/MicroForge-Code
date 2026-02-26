@@ -1,0 +1,64 @@
+{
+  "timestamp": "2026-02-22T21:35:10.152025",
+  "point_budgets": [
+    4,
+    9,
+    16,
+    25,
+    36,
+    64
+  ],
+  "results": [
+    {
+      "n_points": 4,
+      "uniform_iou_mean": 0.0694,
+      "uniform_iou_std": 0.1625,
+      "adaptive_iou_mean": 0.0164,
+      "adaptive_iou_std": 0.0649,
+      "improvement_pct": -76.3
+    },
+    {
+      "n_points": 9,
+      "uniform_iou_mean": 0.0789,
+      "uniform_iou_std": 0.1574,
+      "adaptive_iou_mean": 0.0333,
+      "adaptive_iou_std": 0.073,
+      "improvement_pct": -57.8
+    },
+    {
+      "n_points": 16,
+      "uniform_iou_mean": 0.0792,
+      "uniform_iou_std": 0.128,
+      "adaptive_iou_mean": 0.0494,
+      "adaptive_iou_std": 0.1083,
+      "improvement_pct": -37.6
+    },
+    {
+      "n_points": 25,
+      "uniform_iou_mean": 0.0786,
+      "uniform_iou_std": 0.0927,
+      "adaptive_iou_mean": 0.0528,
+      "adaptive_iou_std": 0.0987,
+      "improvement_pct": -32.8
+    },
+    {
+      "n_points": 36,
+      "uniform_iou_mean": 0.0672,
+      "uniform_iou_std": 0.0761,
+      "adaptive_iou_mean": 0.0573,
+      "adaptive_iou_std": 0.0866,
+      "improvement_pct": -14.7
+    },
+    {
+      "n_points": 64,
+      "uniform_iou_mean": 0.0713,
+      "uniform_iou_std": 0.0765,
+      "adaptive_iou_mean": 0.0675,
+      "adaptive_iou_std": 0.076,
+      "improvement_pct": -5.4
+    }
+  ],
+  "auc_uniform": 4.38,
+  "auc_adaptive": 3.23,
+  "auc_advantage_pct": -26.3
+}

@@ -1,0 +1,16 @@
+fold,loo_iou,loo_dice
+Sample__11_22_.ome.png,1.0,1.0
+Sample__12_37_.ome.png,1.0,1.0
+Sample__13_22_.ome.png,0.9984,0.9992
+Sample__3_33_.ome.png,1.0,1.0
+Sample__4_23_.ome.png,0.9998,0.9999
+Sample__4_31_.ome.png,0.9998,0.9999
+Sample__4_32_.ome.png,1.0,1.0
+Sample__4_33_.ome.png,0.9994,0.9997
+Sample__4_36_.ome.png,0.9987,0.9994
+Sample__6_38_.ome.png,0.9965,0.9982
+Sample__8_21_.ome.png,1.0,1.0
+Sample__9_35_.ome.png,1.0,1.0
+MEAN,0.9993833333333333,0.9996916666666668
+STD,0.0010155731824387992,
+CI95_halfwidth,0.0005746146212575496,

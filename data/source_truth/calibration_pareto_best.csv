@@ -1,0 +1,3 @@
+model,iou_thresh,stab_thresh,avg_masks_per_image,avg_iou
+Baseline,0.3,0.3,715.6,0.1522
+LoRA,0.3,0.3,1.0,0.1528

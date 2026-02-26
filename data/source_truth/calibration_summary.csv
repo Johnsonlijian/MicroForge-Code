@@ -1,0 +1,12 @@
+metric,baseline,lora
+n_masks,21469,30
+pred_iou_mean_raw,0.7005,1.0076
+pred_iou_mean_clamped,0.7004,1.0
+pred_iou_std,0.1953,0.0043
+true_iou_mean,0.002971,0.152848
+true_iou_std,0.022583,0.130227
+ECE,0.6974,0.8472
+overconfidence_ratio,235.8,0.1528
+pearson_r,0.0816,NaN
+spearman_rho,-0.0186,NaN
+deterministic_max_diff,0.0,

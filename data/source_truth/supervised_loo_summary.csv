@@ -1,0 +1,3 @@
+model,loo_n,loo_iou_mean,loo_iou_std,loo_iou_ci95,test_n,test_iou_mean,test_iou_std,test_iou_ci95
+U-Net,12,0.999383,0.001061,0.000674,30,0.1529,0.1303,0.0487
+DeepLabv3,12,1.0,0.0,0.0,30,0.1529,0.1302,0.0486

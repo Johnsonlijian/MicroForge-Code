@@ -1,0 +1,16 @@
+fold,loo_iou,loo_dice
+fold_1,1.0,1.0
+fold_2,1.0,1.0
+fold_3,1.0,1.0
+fold_4,1.0,1.0
+fold_5,1.0,1.0
+fold_6,1.0,1.0
+fold_7,1.0,1.0
+fold_8,1.0,1.0
+fold_9,1.0,1.0
+fold_10,1.0,1.0
+fold_11,1.0,1.0
+fold_12,1.0,1.0
+MEAN,1.0,1.0
+STD,0.0,
+CI95_halfwidth,0.0,

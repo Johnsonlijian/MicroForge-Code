@@ -1,0 +1,115 @@
+{
+  "timestamp": "2026-02-22T21:27:23.874061",
+  "ece_definition": "10 equal-width bins on [0,1]; pred_iou clamped to [0,1]; last bin inclusive",
+  "baseline": {
+    "n_masks": 21469,
+    "ece": 0.6974,
+    "pearson_r": 0.0816,
+    "spearman_rho": -0.0186,
+    "pred_iou_mean": 0.7005,
+    "pred_iou_mean_clamped": 0.7004,
+    "pred_iou_std": 0.1953,
+    "true_iou_mean": 0.002971,
+    "true_iou_std": 0.022583,
+    "overconfidence_ratio": 235.8,
+    "reliability_bins": [
+      {
+        "bin_lo": 0.0,
+        "bin_hi": 0.1,
+        "count": 0,
+        "avg_pred": null,
+        "avg_true": null
+      },
+      {
+        "bin_lo": 0.1,
+        "bin_hi": 0.2,
+        "count": 0,
+        "avg_pred": null,
+        "avg_true": null
+      },
+      {
+        "bin_lo": 0.2,
+        "bin_hi": 0.30000000000000004,
+        "count": 0,
+        "avg_pred": null,
+        "avg_true": null
+      },
+      {
+        "bin_lo": 0.30000000000000004,
+        "bin_hi": 0.4,
+        "count": 1972,
+        "avg_pred": 0.3529,
+        "avg_true": 0.0007
+      },
+      {
+        "bin_lo": 0.4,
+        "bin_hi": 0.5,
+        "count": 2501,
+        "avg_pred": 0.451,
+        "avg_true": 0.001
+      },
+      {
+        "bin_lo": 0.5,
+        "bin_hi": 0.6000000000000001,
+        "count": 2536,
+        "avg_pred": 0.5505,
+        "avg_true": 0.0018
+      },
+      {
+        "bin_lo": 0.6000000000000001,
+        "bin_hi": 0.7000000000000001,
+        "count": 2732,
+        "avg_pred": 0.6507,
+        "avg_true": 0.0021
+      },
+      {
+        "bin_lo": 0.7000000000000001,
+        "bin_hi": 0.8,
+        "count": 3076,
+        "avg_pred": 0.7517,
+        "avg_true": 0.0028
+      },
+      {
+        "bin_lo": 0.8,
+        "bin_hi": 0.9,
+        "count": 4577,
+        "avg_pred": 0.8547,
+        "avg_true": 0.0028
+      },
+      {
+        "bin_lo": 0.9,
+        "bin_hi": 1.0,
+        "count": 4075,
+        "avg_pred": 0.9363,
+        "avg_true": 0.0069
+      }
+    ]
+  },
+  "lora": {
+    "n_masks": 30,
+    "ece": 0.8472,
+    "pearson_r": NaN,
+    "spearman_rho": NaN,
+    "pred_iou_mean": 1.0076,
+    "pred_iou_mean_clamped": 1.0,
+    "pred_iou_std": 0.0043,
+    "true_iou_mean": 0.152848,
+    "true_iou_std": 0.130227
+  },
+  "deterministic_check": {
+    "max_iou_diff_between_runs": 0.0,
+    "is_deterministic": true
+  },
+  "pareto_baseline_best": {
+    "iou_thresh": 0.3,
+    "stab_thresh": 0.3,
+    "avg_masks": 715.6,
+    "avg_iou": 0.1522
+  },
+  "pareto_lora_best": {
+    "iou_thresh": 0.3,
+    "stab_thresh": 0.3,
+    "avg_masks": 1.0,
+    "avg_iou": 0.1528
+  }
+}

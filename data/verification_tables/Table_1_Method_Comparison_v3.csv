@@ -1,0 +1,10 @@
+Method,IoU_mean,IoU_std,95%_CI_lo,95%_CI_hi,Dice,Training
+SAM AMG (Raw),0.129,0.123,,,0.21,None
+SAM AMG + CLAHE (2.0),0.115,0.139,,,0.184,None
+SAM AMG + CLAHE (4.0),0.105,0.116,,,0.173,None
+SAM Uniform Points (N=36),0.067,0.076,,,0.118,None
+Microscopy-Aware (N=36),0.074,0.094,,,0.125,None
+U-Net (LOO),0.153,0.13,0.104,0.202,,12 images
+DeepLabv3 (LOO),0.153,0.13,0.104,0.201,,12 images
+SAM + LoRA (AMG),0.124,0.146,,,0.197,12 images
+SAM + LoRA (Point),0.09,0.071,,,0.158,12 images

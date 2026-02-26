@@ -1,0 +1,5 @@
+Method,IoU_mean,IoU_std,N_masks_total,Protocol_note
+Baseline (AMG),0.126,0.126,4685,"Standard AMG (pred_iou>=0.88, stability>=0.95)"
+Baseline (Point),0.087,0.069,,"8+8 fg/bg prompts, multimask, best-score"
+LoRA (AMG),0.124,0.146,30,Same AMG thresholds
+LoRA (Point),0.09,0.071,,"8+8 fg/bg prompts, multimask, best-score"
