@@ -1,0 +1,11 @@
+Age,Magnification,Standard_edge_hit_pct,PIMP_edge_hit_pct,Improvement_pct,Note
+14d,500x,,,,Insufficient damage features at this scale
+14d,1000x,,,,Insufficient damage features at this scale
+14d,2000x,100.0,100.0,0.0%,Saturated (all points on edges)
+14d,5000x,100.0,100.0,0.0%,Reported in main text Table 4
+14d,10000x,,,,Exceeds pixel resolution for edge statistics
+28d,500x,,,,Insufficient damage features at this scale
+28d,1000x,,,,Insufficient damage features at this scale
+28d,2000x,75.0,87.5,+12.5%,Reported in main text Table 4
+28d,5000x,96.9,96.9,0.0%,Reported in main text Table 4
+28d,10000x,,,,Exceeds pixel resolution for edge statistics
